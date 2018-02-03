@@ -1,2 +1,3 @@
 # set the language of the repo to ActionScript (because it is :P)
 *.swf linguist-language=actionscript
+*.as linguist-language=actionscript
