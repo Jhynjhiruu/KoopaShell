@@ -1,1 +1,1 @@
-&cmd0=set _root.verbose t&
+&cmd0=set,_root.verbose,t&
