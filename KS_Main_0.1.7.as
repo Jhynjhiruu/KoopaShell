@@ -134,6 +134,6 @@ if(_root.KSInstalled != true)
          trace("Command executed: \"" + code + "\"");
       }
    };
-   _root.eval(["ldsr","https://raw.githubusercontent.com/Jhynjhiruu/KoopaShell/master/scripts/init"]);
-   _root.eval(["ldsr","scripts/init"]);
+   _root.eval(["ldsr","https://raw.githubusercontent.com/Jhynjhiruu/KoopaShell/master/ksscripts/init"]);
+   _root.eval(["ldsr","ksscripts/init"]);
 }

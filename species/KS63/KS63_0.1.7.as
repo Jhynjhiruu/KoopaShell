@@ -137,6 +137,6 @@ if(_root.KS63Installed != true)
          trace("Command executed: \"" + code + "\"");
       }
    };
-   _root.eval(["ldsr","https://raw.githubusercontent.com/Jhynjhiruu/KoopaShell/master/species/KS63/scripts/init"]);
-   _root.eval(["ldsr","scripts/init"]);
+   _root.eval(["ldsr","https://raw.githubusercontent.com/Jhynjhiruu/KoopaShell/master/species/KS63/ksscripts/init"]);
+   _root.eval(["ldsr","ksscripts/init"]);
 }
