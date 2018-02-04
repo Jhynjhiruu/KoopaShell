@@ -1,7 +1,7 @@
 if(_root.KS63Installed != true)
 {
    _root.KS63Installed = true;
-   _root.verbose = true;
+   _root.verbose = false;
    trace("KS63_0.2.0 installed");
    _root.inputMode = "cmd";
    _root.swapModes = function()
