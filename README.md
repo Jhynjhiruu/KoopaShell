@@ -40,8 +40,8 @@ If `myVar` is equal to `yourVar` (==), run the command starting at index 4 (`pri
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
-13 - run currently entered command
+13 ('enter' or 'return' key) - run currently entered command
 
-27 - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
+27 ('escape' key) - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
 
 126 - delete currently entered command, but don't call `_root.resumeMain()`
