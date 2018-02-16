@@ -32,6 +32,11 @@ Loads and runs the script file (with the extension .kss) specified in `path/to/s
 
 Traces `data`.
 
+##### if:
+`if myVar is yourVar print data`
+
+If `myVar` is equal to `yourVar` (==), run the command starting at index 4 (`print data` in this case). 3 other logical tests also exist - `not` (!=), `greater` (>) and `smaller` (<).
+
 ### Important keys (by ID):
 35 - backspace
 
