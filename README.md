@@ -38,7 +38,7 @@ Traces `data`.
 If `myVar` is equal to `yourVar` (==), run the command starting at index 4 (`print data` in this case). 3 other logical tests also exist - `not` (!=), `greater` (>) and `smaller` (<).
 
 ### Important keys (by ID):
-35 - backspace
+127 ('delete' key) - backspace
 
 13 - run currently entered command
 
