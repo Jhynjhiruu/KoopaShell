@@ -25,7 +25,7 @@ Loads a .swf file from the location specified in `url`.
 ##### ldsr:
 `ldsr path/to/script`
 
-Loads and runs the script file (with the extension .kss) specified in `path/to/script`.
+Loads and runs the script file (with the extension .kss) specified in `path/to/script`. NOTE: Currently broken, doesn't do anything.
 
 ##### print:
 `print data`
@@ -34,6 +34,9 @@ Traces `data`.
 
 ### Important keys (by ID):
 35 - backspace
+
 13 - run currently entered command
+
 27 - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
+
 126 - delete currently entered command, but don't call `_root.resumeMain()`
