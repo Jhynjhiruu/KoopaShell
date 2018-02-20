@@ -37,6 +37,11 @@ Traces `data`.
 
 If `myVar` is equal to `yourVar` (==), run the command starting at index 4 (`print data` in this case). 3 other logical tests also exist - `not` (!=), `greater` (>) and `smaller` (<).
 
+##### call:
+`call myFunction arg1 arg2`
+
+Calles the function `_root.myFunction` with arguments `arg1`, `arg2` etc. 
+
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
