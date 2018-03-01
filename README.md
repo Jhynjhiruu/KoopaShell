@@ -25,7 +25,7 @@ Loads a .swf file from the location specified in `url`.
 ##### ldsr:
 `ldsr path/to/script`
 
-Loads and runs the script file (with the extension .kss) specified in `path/to/script`. NOTE: Currently broken, doesn't do anything.
+Loads and runs the script file (with the extension .kss) specified in `path/to/script`. NOTE: Using this requires downloading a release from the [releases page](https://github.com/Jhynjhiruu/KoopaShell/releases/) and running that, trying to load a script using a hosted file will fail.
 
 ##### print:
 `print data`
