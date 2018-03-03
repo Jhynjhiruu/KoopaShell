@@ -42,6 +42,11 @@ If `myVar` is equal to `yourVar` (==), run the command starting at index 4 (`pri
 
 Calles the function `_root.myFunction` with arguments `arg1`, `arg2` etc. 
 
+##### setath:
+`setath myVariable %vaNumber - 4`
+
+Sets the variable with the name `myVariable` to the 2nd argument subtract the 4th argument. +, * and / are also supported.
+
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
