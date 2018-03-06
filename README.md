@@ -3,14 +3,14 @@ A mini interpreter/shell thing for AS2 programs
 
 ### Supported commands:
 ##### set:
-`set varName setTo Boolean`
+`set varName setTo`
 
-Sets the variable `varName` to the value specified in `setTo`. If `Boolean` contains any data, it will repeat this every frame, but if it does not contain any data, it will only be set once.
+Sets the variable `varName` to the value specified in `setTo`.
 
 ##### trace:
-`trace varName onUpdate`
+`trace varName`
 
-Traces `varName` every frame, or, if `onUpdate` isn't blank, when it changes.
+Traces `varName` whenever it updates.
 
 ##### lock:
 `lock varName lockTo Boolean`
@@ -46,6 +46,11 @@ Calles the function `_root.myFunction` with arguments `arg1`, `arg2` etc.
 `setath myVariable %vaNumber - 4`
 
 Sets the variable with the name `myVariable` to the 2nd argument subtract the 4th argument. +, * and / are also supported.
+
+##### def:
+`def myFunction 0 print test`
+
+Defines a function with the name `myFunction` evals starting from index 3 when called. Replacing 0 (or blank) with a number will automatically call the function that many times per second.
 
 ### Important keys (by ID):
 127 ('delete' key) - backspace
