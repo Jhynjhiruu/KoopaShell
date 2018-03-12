@@ -1,1 +1,2 @@
-&cmd0=warplevel,level1&cmd1=set,_root.Fluddpow,H,false&cmd2=brk&
+warplevel level1
+set _root.Fluddpow H
