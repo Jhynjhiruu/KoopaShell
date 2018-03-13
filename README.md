@@ -63,4 +63,8 @@ Breaks the currently executing loop. Pretty much random when run manually, but i
 
 27 ('escape' key) - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
 
+34 ('~' key) - delete currently entered command
+
+35 ('#') - trace the currently entered command
+
 126 - delete currently entered command, but don't call `_root.resumeMain()`
