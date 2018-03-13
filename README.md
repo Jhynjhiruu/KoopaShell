@@ -52,6 +52,10 @@ Sets the variable with the name `myVariable` to the 2nd argument subtract the 4t
 
 Defines a function with the name `myFunction` evals starting from index 3 when called. Replacing 0 (or blank) with a number will automatically call the function that many times per second.
 
+##### brk:
+`brk`
+Breaks the currently executing loop. Pretty much random when run manually, but it should always break a function it's put into. This is basically how to make loops in KoopaScript.
+
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
