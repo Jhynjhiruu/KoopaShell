@@ -56,6 +56,10 @@ Defines a function with the name `myFunction` evals starting from index 3 when c
 `brk`
 Breaks the currently executing loop. Pretty much random when run manually, but it should always break a function it's put into. This is basically how to make loops in KoopaScript.
 
+##### arr:
+`arr true myArr 0 %vmyVar`
+Reads/writes to and from arrays. `true` determines whether to write to the array (if `true`) or read from it (if `false`). `myArr` is an example array name, next is the index to be used, and finally the data to be written. When reading, this is used as the variable that data should be written to.
+
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
