@@ -66,5 +66,3 @@ Reads/writes to and from arrays. `true` determines whether to write to the array
 13 ('enter' or 'return' key) - run currently entered command
 
 27 ('escape' key) - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
-
-126 - delete currently entered command
