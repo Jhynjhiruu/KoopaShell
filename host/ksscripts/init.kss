@@ -1,1 +1,3 @@
-set verbose t
+set KoopaShell.input._visible %btrue
+set KoopaShell.output._visible %btrue
+def count a if \%vcountup is \%v set countup 1;print \%vcountup;setath countup \%vcountup + 1;if \%vcountup greater 10 set verbose t;if \%vcountup greater 10 brk

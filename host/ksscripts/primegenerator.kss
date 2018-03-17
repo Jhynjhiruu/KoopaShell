@@ -1,0 +1,2 @@
+set testnum 0
+def test1 1 set currentFuncInt 0;setath testmod \%vtestnum %% 2;setath testnum \%vtestnum + 1;if \%vtestmod is 0 brk;print \%vtestnum
