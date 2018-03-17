@@ -1,4 +1,4 @@
-<img src="https://cdn.discordapp.com/attachments/383022336510525442/424557587514523680/KoopaShell_full.png">
+<img src="https://media.discordapp.net/attachments/383022336510525442/424569343591055370/KoopaShell_full.png">
 A shell written in ActionScript 2.0
 
 ### Supported commands:
