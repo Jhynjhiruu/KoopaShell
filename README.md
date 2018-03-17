@@ -1,5 +1,5 @@
 <img src="https://media.discordapp.net/attachments/383022336510525442/424569343591055370/KoopaShell_full.png">
-A shell written in ActionScript 2.0
+## A shell written in ActionScript 2.0
 
 ### Supported commands:
 ##### set:
