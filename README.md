@@ -1,5 +1,5 @@
-# KoopaShell
-A mini interpreter/shell thing for AS2 programs
+<img src="https://cdn.discordapp.com/attachments/383022336510525442/424557587514523680/KoopaShell_full.png">
+A shell written in ActionScript 2.0
 
 ### Supported commands:
 ##### set:
@@ -67,8 +67,4 @@ Reads/writes to and from arrays. `true` determines whether to write to the array
 
 27 ('escape' key) - delete currently entered command and call `_root.resumeMain()`. Define `_root.resumeMain()` with the code required to unpause/resume/whatever the program this is attached to
 
-34 ('~' key) - delete currently entered command
-
-35 ('#') - trace the currently entered command
-
-126 - delete currently entered command, but don't call `_root.resumeMain()`
+126 - delete currently entered command
