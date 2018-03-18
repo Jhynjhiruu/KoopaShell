@@ -61,6 +61,10 @@ Breaks the currently executing loop. Pretty much random when run manually, but i
 `arr true myArr 0 %vmyVar`
 Reads/writes to and from arrays. `true` determines whether to write to the array (if `true`) or read from it (if `false`). `myArr` is an example array name, next is the index to be used, and finally the data to be written. When reading, this is used as the variable that data should be written to.
 
+##### inp:
+`inp Please type something`
+Pauses execution (of functions and `string` commands) and waits for the user to input something, which is stored in `_root.userInput`. Not tested with more than one loop running at once, but it probably breaks stuff.
+
 ### Important keys (by ID):
 127 ('delete' key) - backspace
 
